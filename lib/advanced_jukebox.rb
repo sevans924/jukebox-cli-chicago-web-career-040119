@@ -41,7 +41,6 @@ def play(my_songs)
   else
     puts "Now playing #{song_to_play}"
      system 'open ' << my_songs[song_to_play]
-
    end
  end
 
