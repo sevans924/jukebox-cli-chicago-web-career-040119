@@ -55,7 +55,7 @@ puts "Invalid input, please try again"
 end
 
 def exit_jukebox
-  #this method is the same as in jukebox.rb
+    puts "Goodbye"#this method is the same as in jukebox.rb
 end
 
 def run(my_songs)
