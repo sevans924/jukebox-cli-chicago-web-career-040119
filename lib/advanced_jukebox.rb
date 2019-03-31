@@ -36,11 +36,12 @@ end
 def play(my_songs)
   puts "Please enter a song name:"
  song = gets.chomp
- if my_songs.keys.include?(song)
-   puts "Now playing #{song_to_play}"
-    system 'open ' << my_songs[song_to_play]
+ if !my_songs.keys.include?(song)
+  puts "Invalid input, please try again"
   else
-puts "Invalid input, please try again"
+    puts "Now playing #{song_to_play}"
+     system 'open ' << my_songs[song_to_play]
+
    end
  end
 
