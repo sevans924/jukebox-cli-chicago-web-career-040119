@@ -78,5 +78,5 @@ def run(my_songs)
         help
         end
       end
-  end#this method is the same as in jukebox.rb
+  #this method is the same as in jukebox.rb
 end
