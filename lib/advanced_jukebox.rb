@@ -34,6 +34,14 @@ end
 
 
 def play(my_songs)
+  puts "Please enter a song name:"
+ song = gets.chomp
+ my_songs.include? do |title, location|
+   if song == title
+
+   end
+ end
+
   #this method is slightly different!
   #you should still ask the user for input and collect their song choice
   #this time, only allow user's to input a song name
